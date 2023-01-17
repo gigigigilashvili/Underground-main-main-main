@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home2">
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.underground.Fragments.Home"
+        android:label="Home"
+        tools:layout="@layout/home"/>
+    <fragment
+        android:id="@+id/aboutUs"
+        android:name="com.example.underground.Fragments.AboutUs"
+        android:label="AboutUs"
+        tools:layout="@layout/aboutus"/>
+    <fragment
+        android:id="@+id/logInLegally"
+        android:name="com.example.underground.Fragments.LogInLegally"
+        android:label="LogInLegally"
+        tools:layout="@layout/legal"/>
+    <fragment
+        android:id="@+id/logInillegally"
+        android:name="com.example.underground.Fragments.LogInillegally"
+        android:label="LogInillegally"
+        tools:layout="@layout/illegal"/>
+    <fragment
+        android:id="@+id/signin"
+        android:name="com.example.underground.Fragments.signin"
+        android:label="signin"
+        tools:layout="@layout/signinn"/>
+    <fragment
+        android:id="@+id/forgotUwU"
+        android:name="com.example.underground.Fragments.forgotUwU"
+        android:label="forgotUwU"
+        tools:layout="@layout/forgot_password"/>
+    <fragment
+        android:id="@+id/illegalorgans"
+        android:name="com.example.underground.Fragments.illegalorgans"
+        android:label="illegalorgans"
+        tools:layout="@layout/illorgans"/>
+    <fragment
+        android:id="@+id/legalorgans"
+        android:name="com.example.underground.Fragments.legalorgans"
+        android:label="legalorgans"
+        tools:layout="@layout/lorgans"/>
+    <fragment
+        tools:layout="@layout/random_layout"
+        android:id="@+id/randomnecessity"
+        android:name="com.example.underground.Fragments.randomnecessity"
+        android:label="randomnecessity" />
+</navigation>

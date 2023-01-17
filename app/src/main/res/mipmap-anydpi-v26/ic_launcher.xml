@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/_22_1220432_transparent_real_heart_png_real_human_heart_png" />
+    <foreground android:drawable="@drawable/spies" />
+</adaptive-icon>
